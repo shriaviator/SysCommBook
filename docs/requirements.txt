@@ -1,2 +1,0 @@
-myst-parser==0.16.0
-rst-to-myst==0.3.2
