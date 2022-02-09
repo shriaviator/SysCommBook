@@ -22,6 +22,7 @@ mdit-py-plugins==0.3.0
 mdurl==0.1.0
 myst-parser==0.16.1
 packaging==21.3
+pip==22.0.3
 Pygments==2.11.2
 pyparsing==3.0.7
 pytz==2021.3
@@ -30,6 +31,7 @@ requests==2.27.1
 rst-to-myst==0.3.2
 ruamel.yaml==0.17.20
 ruamel.yaml.clib==0.2.6
+setuptools==60.8.2
 six==1.16.0
 snowballstemmer==2.2.0
 Sphinx==4.4.0
