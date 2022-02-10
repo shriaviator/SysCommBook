@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'syscom'
-copyright = '2022, srinivaschilukuri'
-author = 'srinivaschilukuri'
+project = 'System-Commands'
+#copyright = '2022, srinivaschilukuri'
+author = 'jebah'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
