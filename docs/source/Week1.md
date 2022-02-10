@@ -6,11 +6,18 @@
 * xterm
 * guake
 ### Command Prompt
-* `username@hostname:~$ `
+```console
+username@hostname:~$
+```
+
+
   - `~$` is the path
 ### Commands and Flags
-* `uname` 
-  - prints the name, version and other details about the current machine and the operating system running on it
+
+```console
+username@hostname:~$ uname
+``` 
+  - Prints the name, version and other details about the current machine and the operating system running on it
   - the -a displays hidden files that have a dot in front of them 
 * `pwd` 
   - Present Working Directory 
@@ -191,7 +198,7 @@
   - `/var/tmp` : temporary files preserved between reboots
 
 
-|          |    Shareable  |  Unsharable |
-|----------|:-------------:|------:|
-| static   |  `/usr and /opt` | `/etc` and `/boot` |
-| variable |    `/var/mail`   |   `/var/run` and `/var/lock` |
+|          |    Shareable    |                 Unsharable |
+| -------- | :-------------: | -------------------------: |
+| static   | `/usr and /opt` |         `/etc` and `/boot` |
+| variable |   `/var/mail`   | `/var/run` and `/var/lock` |
