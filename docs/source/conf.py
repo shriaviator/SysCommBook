@@ -78,3 +78,7 @@ html_theme_options = {
     'titles_only': False
 }
 master_doc = 'index'
+# Build PDF & ePub
+formats:
+  - epub
+  - pdf
