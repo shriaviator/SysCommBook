@@ -3,13 +3,16 @@
 % You can adapt this file completely to your liking, but it should at least
 % contain the root `toctree` directive.
 
-# Welcome to syscom's documentation! Hello
-```{include} README.md
-:relative-images:
-```
+#  Syscom's Documentation! 
+
 ```{warning}
 This is under heavy development
 ```
+```{include} README.md
+:relative-images:
+```
+
+
 
 ```{toctree}
 :caption: 'Contents:'

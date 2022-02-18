@@ -26,11 +26,11 @@ username@hostname:~$  pwd
 ```console
 username@hostname:~$ ls 
 ``` 
-  `- a` : all . displays hidden files 
-  `- l` : use a long listing format
-  `- i` : print index number of each file (inode)
-  `- s` : shows blocks occupied by each file
-  `- 1` : each file name on a separate line
+  - `- a` : all . displays hidden files 
+  - `- l` : use a long listing format
+  - `- i` : print index number of each file (inode)
+  - `- s` : shows blocks occupied by each file
+  - `- 1` : each file name on a separate line
   - output of `ls -l` : `drwxr-xr-x 5 ckg ckg 12288 Nov 25 10:00 Documents` (`d` is file type ; `rwxr-xr-x` owner,group,others permissions ; `5` no of hard links ; `ckg` is owner ; `ckg` is group ; last modified time stamp ; filename)
   - `ls F*` gives a list of all files starting with F
 
@@ -214,9 +214,9 @@ username@hostname:~$ cat
 * Removing a file works only if it has write permission
   
 ### Linux Virtual Machine 
-* #### ISO 
+#### ISO 
   - image of Linux OS (Ubuntu 20.04 LTS for x86_64 platform)
-* #### Hypervisor 
+#### Hypervisor 
   - (eg: Oracle VirtualBox or VMWare Workstation Player)
   - A Hypervisor creates and runs virtual machines
   - It allows running multiple operating systems while sharing hardware resources

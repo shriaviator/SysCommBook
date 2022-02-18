@@ -79,3 +79,4 @@ html_theme_options = {
 }
 master_doc = 'index'
 # Build PDF & ePub
+html_show_copyright = False
