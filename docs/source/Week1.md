@@ -19,9 +19,13 @@ username@hostname:~$ uname
 ``` 
   - Prints the name, version and other details about the current machine and the operating system running on it
   - the -a displays hidden files that have a dot in front of them 
-* `pwd` 
+```console
+username@hostname:~$  pwd
+``` 
   - Present Working Directory 
-* `ls` 
+```console
+username@hostname:~$ ls 
+``` 
   `- a` : all . displays hidden files 
   `- l` : use a long listing format
   `- i` : print index number of each file (inode)
@@ -29,23 +33,41 @@ username@hostname:~$ uname
   `- 1` : each file name on a separate line
   - output of `ls -l` : `drwxr-xr-x 5 ckg ckg 12288 Nov 25 10:00 Documents` (`d` is file type ; `rwxr-xr-x` owner,group,others permissions ; `5` no of hard links ; `ckg` is owner ; `ckg` is group ; last modified time stamp ; filename)
   - `ls F*` gives a list of all files starting with F
-* `rm` 
+
+```console
+username@hostname:~$ rm 
+``` 
   - remove a file 
   - `rm -i` prompts before every removal (it can be set using `alias rm="rm -i"`)
   - works only with write permission
   - use `-d` for removing directories
   - `rm -r mydirectory`  
-* `mv`
+```console
+username@hostname:~$ mv 
+``` 
   - move , rename 
   - `mv file1 ..` (moves file to parent dir)
   - `mv file1 file1a` (renames file1 to file1a)
-* `ps` 
+```console
+username@hostname:~$ ps 
+``` 
+
+
   - currently running processes
-* `clear`
+```console
+username@hostname:~$ clear 
+``` 
+
+
   - or ctrl+l
-* `exit` 
-  - or ctrl+d
-* `man`
+```console
+username@hostname:~$ exit 
+``` 
+ - or ctrl+d
+```console
+username@hostname:~$ man 
+``` 
+
   - get help on any command in linux. eg : man ls
   - man sections (1 to 9) eg : man 1 ls
   - 1 - Executable programs or shell commands
@@ -57,50 +79,92 @@ username@hostname:~$ uname
   - 7 - Misc : macro packages and conventions
   - 8 - System admin commands
   - 9 - Kernel routines
-* `cd`
+```console
+username@hostname:~$ cd
+``` 
+
+
   - change directory eg cd .. - goes to parent directory
   - `cd` without any arguments will take you to the home directory
   - `cd /` takes you to the root folder
   - `cd -` takes you to previous directory
   - `cd ~` takes you to home directory
-* `cp`
+```console
+username@hostname:~$ cp 
+``` 
+
   - copy command : cp file1 file2
-* `date`
+```console
+username@hostname:~$ date 
+``` 
   - date and time
   - `date -R` gives in RFC 5322 standard (used for email communications)
-* `cal`
+```console
+username@hostname:~$ cal 
+``` 
+
   - calendar of a month
   - eg : `cal aug 1947`
   - `ncal` gives calendar in flipped orientation
-* `free`
+```console
+username@hostname:~$ free 
+``` 
   - memory statistics
   - use `h` flag to make it human readable
-* `groups`
-  - groups to which a user belongs
-* `file`
+
+```console
+username@hostname:~$ groups 
+``` 
+
+*   - groups to which a user belongs
+
+```console
+username@hostname:~$ file 
+``` 
+
   - what type of file
   - `-f` allows you to pass a file in which file names are separated by lines (ls -1 > files.txt; file -f files.txt)
   - `file *`  will give a list of file name and types directly
-* `mkdir` 
+
+```console
+username@hostname:~$ mkdir 
+``` 
   - create a directory
   - default permissions (umask)
-* `touch`
+```console
+username@hostname:~$ touch
+``` 
   - used to change the last modified timestamp of a file
   - also used to create empty files
-* `chmod` 
+```console
+username@hostname:~$  chmod
+``` 
   - `chmod 777 file.txt`
   - `chmod g-w file.txt` (removes write permissions from the group)
   - `chmod o-x file.txt` (removes executable permission from others)
   - `chmod u-r file.txt` (removes read permission from owner)
-* `whoami`
+
+```console
+username@hostname:~$whoami 
+``` 
+
   - prints username
-* `less`
+```console
+username@hostname:~$ less 
+``` 
+
   - allows you to read a file page by page
-* `ln`
+```console
+username@hostname:~$  ln
+``` 
   - used to create a hard link or a symbolic link (symlink) to an existing file or directory
   - `s` flag is used to create a soft link
   - usage : `ln file1 file2` ; `ln -s file1 file2`
-* `cat` 
+
+```console
+username@hostname:~$ cat 
+``` 
+
   - stands for concatinate
   - allows you to view the contents of a single file or multiple files (gets concatinated)
 ### File types 
